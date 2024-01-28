@@ -1,38 +1,253 @@
-.App {
-  text-align: center;
+*{
+  /* background-color: rgb(18, 18, 19); */
+  font-family: monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #171717;
+  background-image: url('../public/image/bg4.png');
+  background-position: fixed;
+  background-size: cover;
+  color: rgb(117, 104, 50);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.title {
+  /* margin-left: 5%; */
+  font-size: 7vh;
+}
+
+/* ============= Home ============= */
+
+.namediv {
+  margin: 5%;
+  margin-top: -0.02vh;
+}
+
+#name {
+  color: rgb(181, 157, 62);
+  font-size: 8vh;
+}
+
+#fullname {
+  margin-top: -5vh;
+  font-size: 5vh;
+  color: rgb(163, 147, 81);
+}
+
+.webdev {
+  margin-left: 5%;
+  font-size: 7.5vh;
+  color: rgb(117, 104, 50);
+  margin-top: -4vh;
+  text-align: left;
+}
+
+#dev{
+  margin-top: -16vh;
+}
+
+#dev2{
+  margin-top: -25vh;
+  color: #99976f6c;
+}
+.linkinfo {
+  /* display: contents; */
+}
+
+.linkinfo a {
+  text-decoration: none;
+}
+
+.linkinfo {
+  margin-left: 5%;
+}
+
+.linkinfo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 2%;
+}
+
+/* ============= Nav ============= */
+
+.navbar {
+  background-color: #8a8642;
+  /* padding: 10px; */
+  /* justify-content: space-between; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 6.5vh;
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
 }
 
-.App-link {
-  color: #61dafb;
+.navbar a{
+  display: inline;
+  /* box-sizing: border-box; */
+  /* float: right; */
+  margin: 3%;
+  text-decoration: none;
+  color: rgb(185, 180, 136);
+  font-size:2vh;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.5s, font-size 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 2.2vh;
+}
+
+/* ============= About ============= */
+
+.about {
+  margin-left: 3%;
+  /* margin-top: 4%; */
+}
+
+.a-1 h2{
+  margin-top: 3vh;
+}
+
+#me {
+  width: 30vh;
+  border-radius: 50%;
+}
+
+#ahr {
+  color: #99976f6c;
+  margin-bottom: -5vh;
+  font-size: 7vh;
+  font-weight: 150;
+}
+
+.detail {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-left: 6%;
+  margin-bottom: 8vh;
+}
+
+.a-1 {
+  width: 70vh;
+  font-size: 1.8vh;
+}
+
+.a-2 {
+  padding: 0% 8%;
+}
+
+
+
+/* ============= Contact ============= */
+
+.contact{
+  margin-top: 35vh;
+  margin-left: 5%;
+}
+
+.contact h1{
+  font-size: 7vh;
+}
+
+.contact a {
+  color: #91821ed0;;
+}
+
+.linkcontact img {
+    width: 35px;
+    height: 35px;
+    margin-right: 2%;
+}
+
+#chr {
+  color: #99976f6c;
+  margin-top: -10vh;
+  font-size: 7vh;
+}
+
+
+
+/* ============= Projects ============= */
+
+.project h1 {
+  margin-top: 1%;
+  margin-left: 3%;
+  font-size: 7vh;
+}
+
+.project-detail {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 140vh;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: #8a864261 1.8px solid;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+  transition: background-color 0.6s;
+  
+
+}
+
+.project-detail:hover {
+  background-color: #f7f4d065;
+}
+
+.p-1 {
+  width: 40%;
+  padding: 1vh 3vh;
+  text-align: left;
+}
+
+.p-1 h2, h3 {
+  text-align: left;
+  
+}
+
+.p-1 h4 {
+  margin-top: 3vh;
+  color: #818060af;
+}
+
+.p-2 {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.p-2 a {
+  margin-right: 2vh;
+}
+
+.linktogh {
+  width: 25px;
+  height: 25px;
+  margin-right: 2%;
+}
+/* 
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+} */
+
+.scapture{
+  width: 150px;
+  padding: 2vh;
+  margin-left: 10vh;
+  
 }
