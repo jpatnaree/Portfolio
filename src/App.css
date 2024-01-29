@@ -83,6 +83,7 @@ a {
   display: grid;
   align-items: center; 
   grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
+  /* width: 100vh; */
 }
 
 .navbar a{
@@ -106,17 +107,23 @@ a {
 /* ============= About ============= */
 
 .about {
-  margin-left: 3%;
-  /* margin-top: 4%; */
+  margin-left: 2%;
+  margin-right: auto;
+  /* display: grid; */
 }
+
 
 .a-1 h2{
   margin-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #me {
-  width: 30vh;
+  width: 28vh;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #ahr {
@@ -127,20 +134,36 @@ a {
 }
 
 .detail {
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
   text-align: center;
   display: flex;
-  margin-left: 6%;
-  margin-bottom: 8vh;
+  justify-content: space-evenly;
+  width: 130vh;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  --s: 10px; /* control the size */
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #84781800;
+  outline: 1px solid #584a064b;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#d3d2bce3 25%,#d0cabf 0);
 }
 
 .a-1 {
-  width: 70vh;
-  font-size: 1.8vh;
+  width: 60%;
+  font-size: 1.5vh;
+  /* background-color: #cccaa4; */
+  padding: 3%;
+
 }
 
 .a-2 {
-  padding: 0% 8%;
+  padding: 0% 3%;
+  /* width: 18%; */
 }
 
 
@@ -193,16 +216,23 @@ a {
   align-content: center;
   align-items: center;
   flex-direction: row;
-  border: #8a864261 1.8px solid;
-  border-radius: 10px;
+  /* border: #8a864261 1.8px solid; */
+  border-radius: 3px;
   margin-bottom: 2vh;
-  transition: background-color 0.6s;
+  transition: 0.5s;
+  --s: 10px; /* control the size */
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #84781800;
+  outline: 1px solid #584a064b;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#d3d2bce3 25%,#4d361148 0);
   
 
 }
 
 .project-detail:hover {
-  background-color: #f7f4d065;
+  background: conic-gradient(from 90deg at 1px 1px,#d1cea6e3 25%,#4d3e1135 0);
+  font-size: larger;
 }
 
 .p-1 {
@@ -229,8 +259,9 @@ a {
   align-items: center;
 }
 
-.p-2 a {
+.p-1 a {
   margin-right: 2vh;
+  color: #767339;
 }
 
 .linktogh {
@@ -246,8 +277,8 @@ a {
 } */
 
 .scapture{
-  width: 150px;
+  width: 250px;
   padding: 2vh;
-  margin-left: 10vh;
+  margin-left: 5vh;
   
 }
