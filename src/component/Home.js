@@ -7,12 +7,12 @@ function Home() {
         <div className="home">
             <div className="namediv">
                 <h1 id='name'>Patnaree</h1>
-                <h1 id='fullname'>⌏Pat⌌ Johnson</h1>
+                <h1 id='fullname'>⟨ Pat ⟩ Johnson</h1>
             </div>
             <div className="webdev">
                 <h1>Web</h1>
                 <h1 id="dev">Developer</h1>
-                <h1 id="dev2">_______________</h1>
+                <h1 id="dev2">⟨⁄⟩</h1>
             </div>
 
             <div className="linkinfo">
