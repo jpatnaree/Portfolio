@@ -6,7 +6,7 @@ function Projects() {
         <Navbar />
         <div className="project">
             <h1 className="title">Project:</h1>
-                <h1 id="chr">_______________________</h1>
+            <h1 id="chr">●●● ⟨⁄⟩ ●●●</h1>
 
                 <div className="scrolling-wrapper">
                     <div className="project-detail">

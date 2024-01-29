@@ -8,7 +8,7 @@ function About() {
         <div className="about">
 
             <h1 className="title">About:</h1>
-            <h1 id="chr">_______________________</h1>
+            <h1 id="chr"> ● »« ⟨⁄⟩ »« ●</h1>
 
             <div className="detail">
 
