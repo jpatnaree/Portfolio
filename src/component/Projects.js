@@ -41,7 +41,7 @@ function Projects() {
                             <h2>Library of Hayao Miyazaki</h2>
                             <a href="https://github.com/jpatnaree/HayaoMiyazaki"><img className="linktogh" src='image/github.png' alt='link to GitHub' /></a>
                             <h3>ReactJS HTML CSS</h3>
-                            <h4>A Database of Hayao Miyazaki's Masterpieces in Film</h4>
+                            <h4>A Database of Hayao Miyazaki's Masterpieces</h4>
                         </div>
                         <div className="p-2">
                             <img className="scapture" src="screenshot/hayao.png" alt="Library of Hayao Miyazaki" />
