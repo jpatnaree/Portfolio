@@ -58,7 +58,7 @@ function Projects() {
                             <h4>Embark on an adventurous journey with our Mario-inspired knock-off! Encounter challenging, brutal maps designed to test your skills and perseverance. Can you conquer the unforgiving terrain?</h4>
                         </div>
                         <div className="p-2">
-                            <img className="scapture" src="screenshot/mario.png" alt="super chett" />
+                            <img className="scapture" src="screenshot/mario.jpg" alt="super chett" />
                             {/* <a href="demo"> demo</a> */}
                         </div>
                     </div>
