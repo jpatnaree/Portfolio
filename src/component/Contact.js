@@ -6,7 +6,7 @@ function Contact() {
         <Navbar />
         <div className="contact">
             <h1 className="title">Contact me:</h1>
-            <h1 id="chr"> ● ◉ ⟨⁄⟩ ◉ ●</h1>
+            <h1 id="chr"> ● ◉ ⟨ ⁄ ⟩ ◉ ●</h1>
 
             <div className="linkcontact">
                 <ul><a href="https://github.com/jpatnaree"> <img src="image/github.png" alt='GitHub'/> GitHub: jpatnaree </a></ul>

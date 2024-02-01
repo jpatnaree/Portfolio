@@ -8,14 +8,10 @@ function About() {
         <div className="about">
 
             <h1 className="title">About:</h1>
-            <h1 id="chr"> »« ⟨⁄⟩ »« </h1>
+            <h1 id="chr"> »« ⟨ ⁄ ⟩ »« </h1>
 
             <div className="detail">
-
                 <div className="a-1">
-                <div className="a-2">
-                    <img id='me' src="image/me2.png" alt="me" />
-                </div>
 
 
                     <div className="textbox">
@@ -35,9 +31,11 @@ function About() {
                         I find joy in crafting intuitive user interfaces and building robust backend systems. Let's collaborate and turn every line of code into something extraordinary for the future.
                         </h2>
                     </div>
-                    
 
                 </div>
+                    <div className="a-2">
+                        <img id='me' src="image/me2.png" alt="me" />
+                    </div>
 
 
             </div>
