@@ -53,11 +53,11 @@ a {
 }
 
 #dev{
-  margin-top: -16vh;
+  margin-top: -8vh;
 }
 
 #dev2{
-  margin-top: -13vh;
+  margin-top: -10vh;
   color: #d3d3d3a1;
   /* margin-left: 12%; */
 }
@@ -68,7 +68,7 @@ a {
 }
 
 .linkinfo {
-  padding-left: 5%;
+  /* padding-left: 5%; */
   padding-bottom: 1%;
 }
 
@@ -282,8 +282,8 @@ a {
 }
 
 .linktogh {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   margin-right: 2%;
 }
 /* 
