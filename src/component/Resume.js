@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 
 function Resume() {
-    const pdfURL = 'image/resume.png';
+    const pdfURL = 'image/resume0.png';
     return(
         <>
         <Navbar />
